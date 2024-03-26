@@ -8,7 +8,7 @@
     "servers": [
       {
         "tag": "dns-remote",
-        "address": "1.1.1.1",
+        "address": "https://1.1.1.1/dns-query",
         "strategy": "prefer_ipv4",
         "detour": "proxy"
       },
@@ -51,11 +51,11 @@
       "mtu": 9000,
       "inet4_address": "172.19.0.1/30",
       "inet6_address": "fdfe:dcba:9876::1/126",
-      "auto_route": true,
-      "strict_route": true,
-      "stack": "system",
-      "sniff": true,
-      "sniff_override_destination": true
+      "auto_route": false,
+      "strict_route": false,
+      "stack": "mixed",
+      "sniff": false,
+      "sniff_override_destination": false
     }
   ],
   "outbounds": [
