@@ -27,8 +27,8 @@
 # مراحل نصب
 1. دانلود فایل template
 ```sh
-sudo wget -N -P /var/lib/marzban/templates/singbox/ https://raw.githubusercontent.com/WhyMan1/marzban-singbox-template/master/singbox/default.json
-sudo wget -N -P /var/lib/marzban/templates/singbox/ https://raw.githubusercontent.com/WhyMan1/marzban-singbox-template/master/singbox/mux_conf.json
+sudo wget -N -P /var/lib/marzban/templates/singbox/ https://raw.githubusercontent.com/nasiriscript/marzban-singbox-template/master/singbox/default.json
+sudo wget -N -P /var/lib/marzban/templates/singbox/ https://raw.githubusercontent.com/nasiriscript/marzban-singbox-template/master/singbox/mux_conf.json
 ```
 2. دستورات زیر رو تو ترمینال سرورتون بزنید:
 ```sh
